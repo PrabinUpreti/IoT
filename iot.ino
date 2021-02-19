@@ -83,7 +83,7 @@ void loop()
         responseData += connectionId;
         responseData += ",1\r\n";
         Serial.println(responseData);
-        sendData(String(statusLed) , 800, DEBUG);
+        sendData(responseData , 800, DEBUG);
         
         delay(100);
         sendData(pinNumber+"\r\n",500,DEBUG);
