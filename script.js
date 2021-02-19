@@ -1,4 +1,4 @@
-function initApp() {
+// function initApp() {
   // var xhttp = new XMLHttpRequest();
   // xhttp.onreadystatechange = function() {
   //   if (this.readyState == 4 && this.status == 200) {
@@ -7,7 +7,7 @@ function initApp() {
   // };
   // xhttp.open("GET", "../server/server.php", true);
   // xhttp.send();
-}
+// }
 function sendRequest(id) {
   // var res;
   // var paramg;
