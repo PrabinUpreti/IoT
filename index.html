@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="script.js"></script>
+<title>IoT Home Automation</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<a class="navbar-brand" href="index.html">IoT Home Automation</a>
+<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<span class="navbar-toggler-icon"></span> -->
+</button>
+</nav>
+<div class="container">
+<h5 style="padding-top: 15px;" class="h5 text-left">Home/</h5><hr>
+<div class="row">
+<div class=" col-sm-12 col-md-12 text-center">
+<h3>Turn ON/OFF</h3>
+</div>
+<div style="padding: 20px;" class="col-6 col-sm-6">
+<h2 style="padding-bottom: 50px;" class="text-center">Pin 6</h2>
+<button id="60" class="get_id btn btn-lg btn-block btn-primary" onclick="sendRequest(this.id)">ON/OFF</button>
+</div>
+<div style="padding: 20px;" class="col-6 col-sm-6">
+<h2 style="padding-bottom: 50px;" class="text-center">Pin 7</h2>
+<button id="70" class="get_id btn btn-lg btn-block btn-primary" onclick="sendRequest(this.id)">ON/OFF</button>
+</div>
+<div style="padding: 20px;" class="col-6 col-sm-6">
+<h2 style="padding-bottom: 50px;" class="text-center">Pin 8</h2>
+<button id="80" class="get_id btn btn-lg btn-block btn-primary" onclick="sendRequest(this.id)">ON/OFF</button>
+</div>
+<div style="padding: 20px;" class="col-6 col-sm-6">
+<h2 style="padding-bottom: 50px;" class="text-center">Pin 9</h2>
+<button id="90" class="get_id btn btn-lg btn-block btn-primary" onclick="sendRequest(this.id)">ON/OFF</button>
+</div>
+</div>
+</div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
